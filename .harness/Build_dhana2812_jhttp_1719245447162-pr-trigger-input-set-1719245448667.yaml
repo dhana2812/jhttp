@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_dhana2812_jhttp_1719245447162-pr-trigger-input-set
+  identifier: Build_dhana2812_jhttp_1719245447162prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_dhana2812_jhttp_1719245447162
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
